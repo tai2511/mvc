@@ -2,10 +2,10 @@
 class DB
 {
     public $conection;
-    protected $severname = 'localhost';
-    protected $username = 'root';
-    protected $password = '';
-    protected $dbname = 'mvc';
+    protected $severname = 'ec2-54-87-112-29.compute-1.amazonaws.com';
+    protected $username = 'vssaktybkwrtbo';
+    protected $password = '7397c9cea0d96410dbab9eb399d7059aa1ec894c702bdd7c6ee8bc372b2c682e';
+    protected $dbname = 'dak2okj6mu4ut3';
 
     function __construct()
     {
