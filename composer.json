@@ -1,10 +1,5 @@
 {
     "require": {
-        "monolog/monolog": "1.0.*"
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "chmod -R 777 public/"
-        ]
+      "silex/silex": "~1.1"
     }
 }
